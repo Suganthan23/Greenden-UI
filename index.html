@@ -15,8 +15,8 @@
     <nav class="font-bold bg-green-100 p-3 flex items-center justify-between shadow-2xl sticky top-0 z-10">
         <h1 class="text-3xl">Greenden</h1>
 
-        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="h-6 w-6 md:hidden">
+        <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="h-6 w-6 md:hidden">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
 
@@ -28,7 +28,8 @@
     </nav>
 
     <!--Side Navbar-->
-    <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000" style="width: 50%; height: 100vh; right:-50%">
+    <section id="sidenav" class="bg-green-100 fixed z-20 top-0 transition-all duration-1000"
+        style="width: 50%; height: 100vh; right:-50%">
         <div class="text-right p-5">
             <p id="closenav" class="inline cursor-pointer">X</p>
         </div>
@@ -164,7 +165,9 @@
     <section class="text-center">
         <h1 class="text-3xl font-bold text-center mt-5">Join our News Letter</h1>
         <p>Sign up for our email newspaper to get updates, discounts and more.</p>
-        <input type="text" class="border border-black rounded-lg p-2 m-3 w-3/4">
+        <label for="newsletter-email" class="sr-only">Email Address</label>
+        <input id="newsletter-email" type="text" class="border border-black rounded-lg p-2 m-3 w-3/4" 
+            placeholder="Enter your email address" title="Enter your email address">
         <br>
         <button class="bg-black text-white p-2 text-center rounded-lg underline mb-3">Subscribe</button>
     </section>
