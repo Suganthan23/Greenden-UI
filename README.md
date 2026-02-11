@@ -5,7 +5,7 @@ It focuses on a clean visual hierarchy, simple interactions, and a mobile‑firs
 
 ---
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-Greenden-%2300b894?style=for-the-badge)](https://suganthan23.github.io/Greenden-UI)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Greenden-%2300b894?style=for-the-badge)](https://greenden-ui.vercel.app/)
 
 --- 
 
